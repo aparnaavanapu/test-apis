@@ -1,0 +1,17 @@
+// Hello Aparna API using Express.js
+
+const express = require("express");
+
+const app = express();
+const PORT = 3000;
+
+// Hello Aparna API
+app.get("/aparna", (req, res) => {
+  res.json({
+    message: "Hello Aparna"
+  });
+});
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
