@@ -1,8 +1,8 @@
 {
-  "name": "apis",
+  "name": "backend1",
   "version": "1.0.0",
   "description": "",
-  "main": "testApi1.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
