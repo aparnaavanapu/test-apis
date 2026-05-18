@@ -7,29 +7,7 @@
 
   <h2>Call APIs</h2>
 
-  <button onclick="getHello()">Call Hello API</button>
-  <button onclick="getAparna()">Call Aparna API</button>
-
-  <h3>Response:</h3>
-  <p id="result"></p>
-
-  <script>
-    // Call Hello API
-    async function getHello() {
-      const response = await fetch('http://localhost:3000/hello');
-      const data = await response.json();
-
-      document.getElementById('result').innerText = data.message;
-    }
-
-    // Call Aparna API
-    async function getAparna() {
-      const response = await fetch('http://localhost:3000/aparna');
-      const data = await response.json();
-
-      document.getElementById('result').innerText = data.message;
-    }
-  </script>
+  <
 
 </body>
 </html>
