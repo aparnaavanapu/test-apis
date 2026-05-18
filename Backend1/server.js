@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // Hello World API
-app.get("/hello", (req, res) => {
+app.get("/", (req, res) => {
   res.json({
     message: "Hello World"
   });

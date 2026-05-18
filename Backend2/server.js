@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // Hello Aparna API
-app.get("/aparna", (req, res) => {
+app.get("/", (req, res) => {
   res.json({
     message: "Hello Aparna"
   });
