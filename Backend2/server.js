@@ -8,7 +8,7 @@ const PORT = 3000;
 // Hello Aparna API
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello Aparna"
+    message: "Hello from backend2"
   });
 });
 

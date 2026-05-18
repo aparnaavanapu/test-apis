@@ -8,7 +8,7 @@ const PORT = 3000;
 // Hello World API
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello World"
+    message: "Hello from Backend1"
   });
 });
 
